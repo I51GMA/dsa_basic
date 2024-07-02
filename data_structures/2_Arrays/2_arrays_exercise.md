@@ -17,6 +17,24 @@ Create a list to store these monthly expenses and using that find out,
     got a refund of 200$. Make a correction to your monthly expense list
     based on this
 
+    # Creating List
+    monthly_exp = [2200, 2350, 2600, 2130, 2190]
+    #1
+    monthly_exp[1] - monthly_exp[0]
+    #2
+    for i in range 3:
+	total += monthly_exp[i]
+    #3
+    for i in range len(monthly_exp):
+    	if monthly_exp[i] == 2000:
+     		spent2000 = True
+       		break
+    #4
+    monthly_exp.append(1980)
+    #5
+    monthly_exp.replace
+    
+
 [Solution](https://github.com/codebasics/py/blob/master/DataStructures/2_Arrays/Solution/1_expenses.py)
 
 2. You have a list of your favourite marvel super heros.
